@@ -2,9 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png"
-import rmtdevImg from "@/public/rmtdev.png"
-import wordanalyticsimg from "@/public/wordanalytics.png"
+import projectPic2 from "@/public/projectPic2.png"
 
 export const links = [
   {
@@ -35,38 +33,53 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Computer Science",
+    location: "Estácio",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Completing the studies of Computer Science with University Estácio from Brazil. Completion will be in 2028",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2024",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    title: "Full-stack project",
+    location: "",
+    description: "Developed a full-stack web application using ReactJS, Node.js with Express, and PostgreSQL. Implemented features for browsing, CRUD operations, and sorting books by author, title, or favorites.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "",
+  },
+  {
+    title: "SEO Specialist",
+    location: "Brazil",
+    description:
+      "Optimized a women's haircare website using SEO (Search Engine Optimization). Conducted keyword research, created high-quality content, and implemented on-page optimization techniques.",
+    icon: React.createElement(CgWorkAlt),
+    date: "",
+  },
+  {
+    title: "Sales",
+    location: "Texas, USA",
+    description:
+      "Conducted door-to-door sales, managed customer interactions, facilitated insurance claims, and handled financial transactions. Also took care of repair and car rental appointments.",
+      icon: React.createElement(CgWorkAlt),
+      date: "",
+  },
+  {
+    title: "Ecommerce Owner",
+    location: "Brazil",
+    description:
+      "Ran an e-commerce store for household essentials using Shopify. Responsibilities included sourcing products, writing descriptions, and managing ads on Google and Facebook. Handled product purchasing, supplier communication, shipping processes, and payment operations.",
+      icon: React.createElement(CgWorkAlt),
+      date: "",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Book Library",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Developed a full-stack web application, implemented features for browsing, CRUD operations, and sorting books by author, title, or favorites.",
+    tags: ["React", "API", "PostgreSQL", "CSS", "Nodejs", "Express"],
+    imageUrl: projectPic2
   },
   // {
   //   title: "rmtDev",
@@ -85,8 +98,6 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +105,9 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
   "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Languages",
+  "Statistics",
 ] as const;

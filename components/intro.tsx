@@ -27,12 +27,12 @@ export default function Intro() {
        }}
        >
         <Image 
-        src="/PedroPNG.png" 
+        src="/pedro-corsi2.jpg" 
         alt='Pedro Corsi' 
-        width={192} 
-        height={192} 
-        quality={75} 
-        className='h-192 w-192 mt-[-2rem] rounded-2xl object-cover border-[0.15rem] border-white shadow-xl'
+        width={349} 
+        height={388} 
+        quality={90} 
+        className='h-max w-max mt-[-2rem] rounded-2xl object-cover border-[0.15rem] border-white shadow-xl'
         />
         </motion.div>
        <motion.span className='absolute -bottom-3.5 -right-3.5  text-4xl'
@@ -48,10 +48,10 @@ export default function Intro() {
        </motion.span>
       </div>
      </div>
-     <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-2xl'
+     <motion.p className='mb-10 mt-12 px-4 text-xl !leading-[1.5]'
      initial={{ opacity: 0, y: 100 }}
      animate={{ opacity: 1, y: 0}}>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur quos nostrum nihil molestiae accusantium, dolores fuga labore dolor, nobis voluptatem! Vero libero exercitationem magnam. Sapiente beatae esse nostrum deleniti.
+      While I&apos;m mainly focused on frontend development, I believe it&apos;s crucial to be versatile across all aspects of a project. I enjoy working with React because of how its components seamlessly interact with one another. For backend, Node.js is my go-to choice. In my view, PostgreSQL is the best database to work with—very user-friendly. I&apos;m proactive with an entrepreneurial mindset, finding satisfaction in supporting the team and driving results. Feel free to reach out; I&apos;m always up for a chat.
      </motion.p>
      <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
      initial={{ opacity: 0, y: 0 }}
