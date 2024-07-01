@@ -1,4 +1,5 @@
 "use client"
+// not being used
 
 import React from 'react'
 import SectionHeading from './section-heading'
