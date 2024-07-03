@@ -2,10 +2,7 @@
 const nextConfig = {
  basePath: "/portfolio",
  output: "export",
- reactStrictMode: true,
- experimental: {
-  serverActions: true,
- }
+ reactStrictMode: true
 }
 
 module.exports = nextConfig
