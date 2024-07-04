@@ -1,8 +1,14 @@
-/** @type {import('next').NextConfig} */
+/** 
+ * @type {import('next').NextConfig} 
+ */
 const nextConfig = {
  basePath: "/portfolio",
  output: "export",
- reactStrictMode: true
+ reactStrictMode: true,
+ images: {
+  loader: 'custom',
+  loaderFile: ['./public/projectPic2.png', './public/pedro-corsi2.jpg']
+ }
 }
 
-module.exports = nextConfig
+export default nextConfig
