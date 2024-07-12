@@ -16,7 +16,7 @@ export default function Contact() {
    ref={ref} 
    className='mb-20 sm:mb-28 w-[min(100%, 38rem)] text-center'>
     <SectionHeading>Contact me</SectionHeading>
-    <p className='text-gray-700 -mt-5'>Please contact me directly at <a className='underline' href='mailto:pedrocorsi1@outlook.com'>pedrocorsi1@outlook.com</a>{' '} or through this form
+    <p className='text-gray-700 -mt-5'>You can contact me directly at <a className='underline' href='mailto:pedrocorsi1@outlook.com'>pedrocorsi1@outlook.com</a>{','} send me a <a className='underline' href='https://api.whatsapp.com/send/?phone=5511910788778&text&type=phone_number&app_absent=0' target='_blank'>WhatsApp</a> or through the form below :{')'}
     </p>
 
     <form 

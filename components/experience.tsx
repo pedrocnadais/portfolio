@@ -4,18 +4,24 @@ import React from 'react'
 import SectionHeading from './section-heading'
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import "react-vertical-timeline-component/style.min.css";
-import { experiencesData } from '@/lib/data';
+import { useExperiencesData } from '@/lib/data';
 import { useSectionInView } from '@/lib/hooks';
+import { useTranslation } from 'next-i18next';
+import { translateExperienceData } from '@/lib/translateData';
+import { ExperienceData } from '@/lib/types';
 
 
 export default function Experience() {
- const { ref } = useSectionInView("Experience");
+  const { t } = useTranslation('data')
+  const { ref } = useSectionInView("Experience");
+
+  const translatedData: ExperienceData[] = translateExperienceData(useExperiencesData(), t)
 
   return (
    <section ref={ref} id='experience' className='scroll-mt-28 mb-28'>
     <SectionHeading>My experience</SectionHeading>
     <VerticalTimeline lineColor=''>
-     {experiencesData.map((item, index) => (
+     {translatedData.map((item, index) => (
        <React.Fragment key={index}>
         <VerticalTimelineElement
           visible={true}

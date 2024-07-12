@@ -3,6 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import projectPic2 from "@/public/projectPic2.png"
+import { useTranslation } from 'next-i18next'
+
 
 export const links = [
   {
@@ -31,47 +33,53 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
+export const useExperiencesData = () => {
+  const { t } = useTranslation('data');
+
+  const experiencesData = [
   {
-    title: "Computer Science",
-    location: "Estácio",
+    title: t("Computer Science"),
+    location: t("Estácio"),
     description:
-      "Completing the studies of Computer Science with University Estácio from Brazil. Completion will be in 2028",
+      t("description_computer_science"),
     icon: React.createElement(LuGraduationCap),
     date: "2024",
   },
   {
-    title: "Full-stack project",
+    title: t("Full-stack project"),
     location: "",
-    description: "Developed a full-stack web application using ReactJS, Node.js with Express, and PostgreSQL. Implemented features for browsing, CRUD operations, and sorting books by author, title, or favorites.",
+    description: t("description_full_stack"),
     icon: React.createElement(FaReact),
     date: "",
   },
   {
-    title: "SEO Specialist",
-    location: "Brazil",
+    title: t("SEO Specialist"),
+    location: t("Brazil"),
     description:
-      "Optimized a women's haircare website using SEO (Search Engine Optimization). Conducted keyword research, created high-quality content, and implemented on-page optimization techniques.",
+      t("description_seo_specialist"),
     icon: React.createElement(CgWorkAlt),
     date: "",
   },
   {
-    title: "Sales",
-    location: "Texas, USA",
+    title: t("Sales"),
+    location: t("Texas, USA"),
     description:
-      "Conducted door-to-door sales, managed customer interactions, facilitated insurance claims, and handled financial transactions. Also took care of repair and car rental appointments.",
+      t("description_sales"),
       icon: React.createElement(CgWorkAlt),
       date: "",
   },
   {
-    title: "Ecommerce Owner",
-    location: "Brazil",
+    title: t("Ecommerce Owner"),
+    location: t("Brazil"),
     description:
-      "Ran an e-commerce store for household essentials using Shopify. Responsibilities included sourcing products, writing descriptions, and managing ads on Google and Facebook. Handled product purchasing, supplier communication, shipping processes, and payment operations.",
+      t("description_ecommerce_owner"),
       icon: React.createElement(CgWorkAlt),
       date: "",
   },
-] as const;
+];
+return experiencesData
+};
+
 
 export const projectsData = [
   {
@@ -82,6 +90,7 @@ export const projectsData = [
     imageUrl: projectPic2
   },
 ] as const;
+
 
 export const skillsData = [
   "JavaScript",

@@ -1,0 +1,8 @@
+{
+ "intro_paragraph": "Embora meu foco seja mais no desenvolvimento frontend, acredito que é crucial ser versátil e poder trabalhar em todos os aspectos de um projeto. Eu gosto de trabalhar com React pela maneira que seus componentes interagem entre si. Para o backend, Node.js é minha escolha principal. Na minha opinião, PostgreSQL é o melhor banco de dados para trabalhar—muito amigável ao usuário. Sou um programador proativo e que tem uma mentalidade empreendedora, encontrando satisfação alcançar os melhores resultados. Fique à vontade para entrar em contato; estou sempre disponível para conversar.",
+ "contact_button_text": "Entre em contato aqui",
+ "download_button_text": "Baixar CV",
+ "linkedin_button_aria_label": "Perfil LinkedIn",
+ "github_button_aria_label": "Perfil GitHub",
+ "whatsapp_button_aria_label": "Perfil WhatsApp"
+}

@@ -28,10 +28,11 @@ export default function Header() {
                   className='h-3/4 flex items-center justify-center relative' 
                   key={link.hash}
                   initial={{ y: -100, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}>
+                  animate={{ y: 0, opacity: 1 }}
+                >
                     <Link className={
                       clsx(
-                        'flex w-ful items-center justify-center px-3 py-3 hover:text-gray-950 transition', 
+                        'flex w-ful items-center justify-center px-2 py-3 hover:text-gray-950 transition', 
                         {
                           'text-gray-950': activeSection === link.name,
                         }

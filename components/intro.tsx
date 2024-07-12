@@ -6,7 +6,7 @@ import React from 'react'
 import  Link  from 'next/link'
 import { BsArrowRight, BsLinkedin } from 'react-icons/bs'
 import { HiDownload } from 'react-icons/hi'
-import { FaGithubSquare } from 'react-icons/fa'
+import { FaGithubSquare, FaWhatsapp } from 'react-icons/fa'
 import { useSectionInView } from '@/lib/hooks'
 import { useActiveSectionContext } from '@/context/active-section'
 
@@ -77,6 +77,10 @@ export default function Intro() {
 
       {/* Github button */}
       <a className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack' href='https://github.com/pedaaro' target='_blank'><FaGithubSquare /></a>
+
+      {/* Whatspp button */}
+      <a className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack' href='https://api.whatsapp.com/send/?phone=5511910788778&text&type=phone_number&app_absent=0' target='_blank'><FaWhatsapp /></a>
+
      </motion.div>
     </section>
   )

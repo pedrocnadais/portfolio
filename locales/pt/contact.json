@@ -1,0 +1,8 @@
+{
+ "contact_me": "Entre em contato",
+ "contact_instruction": "Você pode entrar em contato diretamente pelo",
+ "email_placeholder": "Seu email",
+ "message_placeholder": "Sua mensagem para mim :)",
+ "email_sent_success": "Email enviado com sucesso. Falo com você em breve :)",
+ "send_email_error": "Houve um erro ao enviar seu email."
+}

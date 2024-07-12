@@ -1,0 +1,8 @@
+{
+ "contact_me": "Contact me",
+ "contact_instruction": "You can contact me directly at",
+ "email_placeholder": "Your email",
+ "message_placeholder": "Your message to me :)",
+ "email_sent_success": "Email sent successfully. Talk to you soon :)",
+ "send_email_error": "There was an error sending your email."
+}

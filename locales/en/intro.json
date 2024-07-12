@@ -1,0 +1,8 @@
+{
+ "intro_paragraph": "While I'm mainly focused on frontend development, I believe it's crucial to be versatile across all aspects of a project. I enjoy working with React because of how its components seamlessly interact with one another. For backend, Node.js is my go-to choice. In my view, PostgreSQL is the best database to work with—very user-friendly. I'm proactive with an entrepreneurial mindset, finding satisfaction in supporting the team and driving results. Feel free to reach out; I'm always up for a chat.",
+ "contact_button_text": "Contact me here",
+ "download_button_text": "Download CV",
+ "linkedin_button_aria_label": "LinkedIn Profile",
+ "github_button_aria_label": "GitHub Profile",
+ "whatsapp_button_aria_label": "WhatsApp Profile"
+}
