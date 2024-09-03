@@ -4,6 +4,8 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import projectPic2 from "@/public/projectPic2.png"
 import { useTranslation } from 'next-i18next'
+import extensionProjectPic2 from '@/public/extensionProjectPic2.png'
+import instagramProjectPic from '@/public/instagramProjectPic.png'
 
 
 export const links = [
@@ -89,20 +91,39 @@ export const projectsData = [
     tags: ["React", "API", "PostgreSQL", "CSS", "Nodejs", "Express"],
     imageUrl: projectPic2
   },
+  {
+    title: "Video Downloader Chrome Extension",
+    description:
+      "Created a Google Chrome extension that lets you download videos in WEBM.",
+    tags: ["JavaScript", "Video Download", "Chrome API", "Stream Capture", "Browser Extension"],
+    imageUrl: extensionProjectPic2
+  },
+  {
+    title: "Instagram Clone",
+    description:
+      "Created an Instagram Clone where you can create an account, follow users and like pictures.",
+    tags: ["NextJS", "TypeScript", "Firebase", "PostgreSQL", "Chakra UI"],
+    imageUrl: instagramProjectPic
+  },
 ] as const;
 
 
 export const skillsData = [
   "JavaScript",
-  "TypeScript",
   "React",
+  "TypeScript",
   "Next.js",
-  "Node.js",
+  "Problem Solving",
+  "PostgreSQL",
   "Git",
-  "Tailwind",
+  "Node.js",
+  "Tailwind CSS",
   "MongoDB",
   "Express",
-  "PostgreSQL",
   "Languages",
   "Statistics",
+  "Docker",
+  "Vite",
+  "Firebase",
+  "Chakra UI",
 ] as const;
