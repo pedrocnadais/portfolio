@@ -51,7 +51,7 @@ export default function Intro() {
      <motion.p className='mb-10 mt-12 px-4 text-xl !leading-[1.5]'
      initial={{ opacity: 0, y: 100 }}
      animate={{ opacity: 1, y: 0}}>
-      While I&apos;m mainly focused on frontend development, I believe it&apos;s crucial to be versatile across all aspects of a project. I enjoy working with React because of how its components seamlessly interact with one another. For backend, Node.js is my go-to choice. In my view, PostgreSQL is the best database to work with—very user-friendly. I&apos;m proactive with an entrepreneurial mindset, finding satisfaction in supporting the team and driving results. Feel free to reach out; I&apos;m always up for a chat.
+      Frontend developer skilled in React, Next.js, JavaScript, and TypeScript, with experience in Node.js as well. I strive to create efficient and visually appealing solutions. I&apos;m a proactive, curious, and highly motivated professional, known for my attention to detail, strong communication, and problem-solving abilities. Fluent in English and Portuguese, and conversational in Spanish.
      </motion.p>
      <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
      initial={{ opacity: 0, y: 0 }}
@@ -70,7 +70,7 @@ export default function Intro() {
       </Link>
 
       {/* Download button */}
-      <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack' href='/EN - CV Pedro JavaScript Developer.pdf' download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition cursor-pointer'/></a>
+      <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack' href='/[EN] CV Pedro [UPDATED 16-10-2024]' download>Download CV <HiDownload className='opacity-60 group-hover:translate-y-1 transition cursor-pointer'/></a>
 
       {/* Linkedin button */}
       <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer border borderBlack' href='https://www.linkedin.com/in/pedrocorsin/' target='_blank'><BsLinkedin /></a>

@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import projectPic2 from "@/public/projectPic2.png"
+import libraryPic from "@/public/libraryPic.png"
 import { useTranslation } from 'next-i18next'
 import extensionProjectPic2 from '@/public/extensionProjectPic2.png'
 import instagramProjectPic from '@/public/instagramProjectPic.png'
@@ -41,7 +41,7 @@ export const useExperiencesData = () => {
   const experiencesData = [
   {
     title: t("Computer Science"),
-    location: t("Estácio"),
+    location: t("Estacio"),
     description:
       t("description_computer_science"),
     icon: React.createElement(LuGraduationCap),
@@ -87,14 +87,14 @@ export const projectsData = [
   {
     title: "Book Library",
     description:
-      "Developed a full-stack web application, implemented features for browsing, CRUD operations, and sorting books by author, title, or favorites.",
-    tags: ["React", "API", "PostgreSQL", "CSS", "Nodejs", "Express"],
-    imageUrl: projectPic2
+      "Developed a full-stack web application, implemented features for browsing, CRUD operations, and sorting books by author or title. There's also a web scrapping functionality for when new books are inserted in the database that looks for image and links.",
+    tags: ["Nextjs", "API", "PostgreSQL", "Tailwind CSS", "Nodejs", "Express", "Web Scrapping"],
+    imageUrl: libraryPic
   },
   {
     title: "Video Downloader Chrome Extension",
     description:
-      "Created a Google Chrome extension that lets you download videos in WEBM.",
+      "Created a Google Chrome extension that lets you download videos in WEBM if in a blob or MP4 if there's a link available.",
     tags: ["JavaScript", "Video Download", "Chrome API", "Stream Capture", "Browser Extension"],
     imageUrl: extensionProjectPic2
   },
@@ -110,8 +110,8 @@ export const projectsData = [
 
 export const skillsData = [
   "JavaScript",
-  "React",
   "TypeScript",
+  "React",
   "Next.js",
   "Problem Solving",
   "PostgreSQL",
