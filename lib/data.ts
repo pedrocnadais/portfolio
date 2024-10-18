@@ -87,7 +87,7 @@ export const projectsData = [
   {
     title: "Book Library",
     description:
-      "Developed a full-stack web application, implemented features for browsing, CRUD operations, and sorting books by author or title. There's also a web scrapping functionality for when new books are inserted in the database that looks for image and links.",
+      "Developed a fullstack web application, with features for browsing and sorting books. It also does web scrapping, when new books are inserted in the database, for image and links.",
     tags: ["Nextjs", "API", "PostgreSQL", "Tailwind CSS", "Nodejs", "Express", "Web Scrapping"],
     imageUrl: libraryPic
   },
